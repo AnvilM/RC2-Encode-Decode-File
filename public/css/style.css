@@ -1,0 +1,78 @@
+*{
+    color: white;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #191919;
+}
+
+input{
+    padding: 0 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    height: 30px;
+    width: 100%;
+
+    outline: none;
+}
+
+button{
+    padding: 0 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    height: 30px;
+    width: 48%;
+
+    outline: none;
+
+    cursor: pointer;
+}
+
+select{
+    padding: 0 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    height: 30px;
+    width: 100%;
+
+    outline: none;
+}
+
+option{
+    color: black;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+
+    width: 300px;
+    
+}
+
+form > .line{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+form > * + *{
+    margin-top: 10px;
+}
+
+form > .checkbox-line{
+    align-items: center;
+    display: flex;
+    justify-content: start;
+}
+form > .checkbox-line > .text{
+    margin-left: 20px;
+}
+form > .checkbox-line > input{
+    width: 20px;
+}
